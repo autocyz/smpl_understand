@@ -1,7 +1,7 @@
 ## SMPL
-Offcial website: http://smpl.is.tue.mpg.de/
-Doc: http://files.is.tue.mpg.de/black/papers/SMPL2015.pdf
-SMPL have 6890 vertices and 23+1 joints
+Offcial website: http://smpl.is.tue.mpg.de/     
+Doc: http://files.is.tue.mpg.de/black/papers/SMPL2015.pdf    
+SMPL have 6890 vertices and 23+1 joints    
 
 ## SMPL model values: 
 ```
@@ -29,7 +29,7 @@ name: r                     type: <type 'numpy.ndarray'>                    size
 
 ## Model inputs/outputs:
 - inputs: pose, betas
-- outputs: r, f
+- outputs: r, f          
 change inputs, the model will be changed automaticly, authors use chumpy to complete this func. 
 
 ## Some equations about SMPL values
