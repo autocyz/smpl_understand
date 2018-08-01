@@ -131,8 +131,17 @@ def load_model(fname_or_dict):
         #     print 'name:',k,' type:', type(v), ' size:',v.size
         # else:
         #     print 'name:',k,' type:', type(v), ' size:',len(v)
-
-    
+    # model = {
+    #     'J_regressor':dd['J_regressor'],
+    #     'weights': np.array(dd['weights']),
+    #     'posedirs': np.array(dd['posedirs']),
+    #     'v_template': np.array(dd['v_template']),
+    #     'shapedirs': np.array(dd['shapedirs']),
+    #     'f': np.array(dd['f']),
+    #     'kintree_table': dd['kintree_table']
+    # }
+    # with open('./man_lbs.pkl', 'wb') as f:
+    #     pickle.dump(model, f)
 
     # for k, v in result.items():
     #     print(k)
